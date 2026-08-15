@@ -1,0 +1,17 @@
+{
+  "name": "Cowart.XunfeiSpeechRecognition.Tests.Editor",
+  "rootNamespace": "Cowart.XunfeiSpeechRecognition.Tests",
+  "references": [
+    "Cowart.XunfeiSpeechRecognition"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

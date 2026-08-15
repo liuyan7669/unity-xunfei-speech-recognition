@@ -1,0 +1,33 @@
+{
+  "name": "com.cowart.xunfei-speech-recognition",
+  "version": "1.0.0",
+  "displayName": "Xunfei Speech Recognition",
+  "description": "通过唯一静态入口把 PCM16 WAV、实时 PCM byte[] 或 Unity AudioClip 转为文字，支持 Editor、Windows、Android 与 WebGL，并可独立于录音包安装。",
+  "unity": "2021.3",
+  "author": {
+    "name": "Cowart"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyan7669/unity-xunfei-speech-recognition.git"
+  },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.2",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.ugui": "1.0.0"
+  },
+  "keywords": [
+    "speech",
+    "recognition",
+    "xunfei",
+    "iat"
+  ],
+  "samples": [
+    {
+      "displayName": "UGUI Usage",
+      "description": "独立 UGUI 场景，演示完整 WAV、裸 PCM16、AudioClip、实时 PCM16、统一终态事件和运行时凭据；不依赖其他 Cowart 包。",
+      "path": "Samples~/UGUI Usage"
+    }
+  ]
+}

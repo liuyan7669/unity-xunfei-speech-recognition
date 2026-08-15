@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+*.unity text eol=lf
+*.meta text eol=lf
+*.asmdef text eol=lf
+*.jslib text eol=lf
+*.bytes binary
+*.wav binary
