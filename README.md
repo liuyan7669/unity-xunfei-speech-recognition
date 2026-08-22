@@ -61,7 +61,7 @@ com.cowart.xunfei-speech-recognition
 ### 通过 Git URL 安装
 
 ```text
-https://github.com/liuyan7669/unity-xunfei-speech-recognition.git#1.0.0
+https://github.com/liuyan7669/unity-xunfei-speech-recognition.git#1.0.1
 ```
 
 ### 从本地磁盘安装
