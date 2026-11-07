@@ -1,6 +1,6 @@
 {
   "name": "com.cowart.xunfei-speech-recognition",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Xunfei Speech Recognition",
   "description": "通过唯一静态入口把 PCM16 WAV、实时 PCM byte[] 或 Unity AudioClip 转为文字，支持 Editor、Windows、Android 与 WebGL，并可独立于录音包安装。",
   "unity": "2021.3",
