@@ -1,7 +1,7 @@
 # Xunfei Speech Recognition UGUI Usage
 
 这是一个可通过 Unity Package Manager 导入的独立 UGUI 示例。它只依赖本讯飞包、Unity
-UGUI、Unity Audio 和 Newtonsoft Json，不依赖 Audio Recorder、File Bridge、WebGLBridge
+UGUI、Unity Audio 和 Newtonsoft Json，不依赖 Audio Recorder、Device Files、WebGLBridge
 或 TextMeshPro。
 
 ## 导入与运行

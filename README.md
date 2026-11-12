@@ -7,7 +7,7 @@ Cowart.XunfeiSpeechRecognition.XunfeiSpeechRecognizer
 ```
 
 本包只负责“接收音频并输出文字”，不会打开麦克风，也不依赖 Audio Recorder、
-File Bridge 或项目中的 WebGLBridge。它可以单独安装，也可以由项目业务层与任意录音包组合。
+Device Files 或项目中的 WebGLBridge。它可以单独安装，也可以由项目业务层与任意录音包组合。
 
 ## 功能一览
 
@@ -34,7 +34,7 @@ File Bridge 或项目中的 WebGLBridge。它可以单独安装，也可以由�
 - 当前编译后端：Unity Editor、Windows、Android、WebGL。
 - 包依赖：`com.unity.nuget.newtonsoft-json`、`com.unity.modules.audio`、`com.unity.ugui`。
   UGUI 只用于可导入 Sample；核心 Runtime 不引用 UI 类型。
-- 不依赖 Audio Recorder、File Bridge、WebGLBridge 或任何其他 Cowart 包。
+- 不依赖 Audio Recorder、Device Files、WebGLBridge 或任何其他 Cowart 包。
 
 `IsAvailable == true` 只表示当前目标平台有已编译的传输后端，不表示凭据正确、网络可达、
 设备时间准确或讯飞服务一定可用。
@@ -61,7 +61,7 @@ com.cowart.xunfei-speech-recognition
 ### 通过 Git URL 安装
 
 ```text
-https://github.com/liuyan7669/unity-xunfei-speech-recognition.git#1.0.2
+https://github.com/liuyan7669/unity-xunfei-speech-recognition.git#1.0.3
 ```
 
 ### 从本地磁盘安装
@@ -86,7 +86,7 @@ Assets\Samples\Xunfei Speech Recognition\1.0.0\UGUI Usage
 
 打开 `Xunfei Speech Recognition UGUI.unity` 即可看到完整 WAV、裸 PCM16、AudioClip、
 实时 PCM16、取消和统一终态事件的独立示例。Sample 只使用 legacy UGUI 和 Unity 内置字体，
-不依赖 TextMeshPro、Audio Recorder、File Bridge 或项目 Assets 中的资源。
+不依赖 TextMeshPro、Audio Recorder、Device Files 或项目 Assets 中的资源。
 
 Sample 不保存真实凭据。内置音频是程序生成的 2 秒合成音调，不含真人语音或第三方素材，
 只用于验证格式与投递链路；要得到有意义的文字，请换成调用方有权使用的真实语音。
