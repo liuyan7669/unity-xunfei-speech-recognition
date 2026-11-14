@@ -1,4 +1,7 @@
 {
   "name": "Cowart.XunfeiSpeechRecognition",
-  "rootNamespace": "Cowart.XunfeiSpeechRecognition"
+  "rootNamespace": "Cowart.XunfeiSpeechRecognition",
+  "references": [
+    "Cowart.InspectorGroups"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "com.cowart.xunfei-speech-recognition",
-  "version": "1.0.3",
+  "version": "3.1.0",
   "displayName": "Xunfei Speech Recognition",
   "description": "通过唯一静态入口把 PCM16 WAV、实时 PCM byte[] 或 Unity AudioClip 转为文字，支持 Editor、Windows、Android 与 WebGL，并可独立于录音包安装。",
   "unity": "2021.3",
@@ -15,7 +15,8 @@
   "dependencies": {
     "com.unity.nuget.newtonsoft-json": "3.2.2",
     "com.unity.modules.audio": "1.0.0",
-    "com.unity.ugui": "1.0.0"
+    "com.unity.ugui": "1.0.0",
+    "com.cowart.inspector-groups": "3.1.0"
   },
   "keywords": [
     "speech",

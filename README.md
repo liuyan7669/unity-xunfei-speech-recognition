@@ -61,7 +61,7 @@ com.cowart.xunfei-speech-recognition
 ### 通过 Git URL 安装
 
 ```text
-https://github.com/liuyan7669/unity-xunfei-speech-recognition.git#1.0.3
+https://github.com/liuyan7669/unity-xunfei-speech-recognition.git#3.1.0
 ```
 
 ### 从本地磁盘安装
@@ -81,7 +81,7 @@ WAV、PCM 和 AudioClip 识别；只有需要麦克风录音时，目标项目�
 `UGUI Usage` 右侧的 **Import**。默认导入目录是：
 
 ```text
-Assets\Samples\Xunfei Speech Recognition\1.0.0\UGUI Usage
+Assets\Samples\Xunfei Speech Recognition\3.1.0\UGUI Usage
 ```
 
 打开 `Xunfei Speech Recognition UGUI.unity` 即可看到完整 WAV、裸 PCM16、AudioClip、
@@ -636,3 +636,7 @@ Windows、Android 或浏览器中的真实网络识别已经通过。
 `Cowart.XunfeiSpeechRecognition.XunfeiSpeechRecognizer`。旧 WebGLBridge 测试组件和公开
 WebSocket 类型不再属于公共 API，Audio Recorder 硬依赖也已移除。组合代码必须放在业务项目
 中，显式把 WAV 或 PCM 数据从生产者传给本包。
+
+## Inspector 统一依赖
+
+本包声明依赖 `com.cowart.inspector-groups` `3.1.0`，Inspector 样式统一由该基础包提供。安装前须配置 OpenUPM scoped registry（`https://package.openupm.com`，scope `com.cowart`）；UPM 会根据 dependencies 连带解析 Inspector Groups。使用未发布源码时，请同时使用本地 Inspector Groups 3.1.0。业务包之间不互相依赖，Samples 的可选组合不受此限制。

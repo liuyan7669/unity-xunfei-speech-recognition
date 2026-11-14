@@ -14,7 +14,7 @@ UGUI、Unity Audio 和 Newtonsoft Json，不依赖 Audio Recorder、Device Files
 
 导入后的默认目录是：
 
-`Assets/Samples/Xunfei Speech Recognition/1.0.0/UGUI Usage`
+`Assets/Samples/Xunfei Speech Recognition/3.1.0/UGUI Usage`
 
 场景和资源中没有预置真实凭据。APISecret 输入框使用 Password 模式，示例不会把凭据写入
 场景、资源或 PlayerPrefs。

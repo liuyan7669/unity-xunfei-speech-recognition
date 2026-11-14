@@ -1,0 +1,21 @@
+name: OpenUPM
+
+on:
+  push:
+    tags:
+      - '**'
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: openupm/openupm-action@89b79dc8dd6cb319efff06727f8fa0051ce7e517 # v1
+        with:
+          package: com.cowart.xunfei-speech-recognition
+          tag: ${{ github.ref_name }}
+          timeout-minutes: '20'
